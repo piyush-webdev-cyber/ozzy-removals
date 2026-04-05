@@ -1,10 +1,10 @@
 /* Ozzy Removals — slate / sky / gold (distinctive layout, not template-default) */
 
 :root {
-  --color-accent: #38bdf8;
-  --color-accent-hover: #0ea5e9;
-  --color-accent-soft: rgba(56, 189, 248, 0.15);
-  --color-accent-border: rgba(56, 189, 248, 0.45);
+  --color-accent: #22d3ee;
+  --color-accent-hover: #0891b2;
+  --color-accent-soft: rgba(34, 211, 238, 0.15);
+  --color-accent-border: rgba(34, 211, 238, 0.45);
   --color-gold: #f59e0b;
   --color-gold-hover: #d97706;
   --color-ozzy-red: var(--color-accent);
@@ -33,7 +33,7 @@
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
   --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.15);
   --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.2);
-  --shadow-accent: 0 4px 24px rgba(56, 189, 248, 0.25);
+  --shadow-accent: 0 4px 24px rgba(34, 211, 238, 0.25);
 
   --font-display: "Outfit", system-ui, sans-serif;
   --font-sans: "Outfit", system-ui, sans-serif;
@@ -199,8 +199,8 @@ main {
 
 .nav-desktop a.is-active:not(.nav-desktop__phone) {
   color: var(--text-on-dark);
-  background: rgba(56, 189, 248, 0.12);
-  box-shadow: inset 0 0 0 1px rgba(56, 189, 248, 0.25);
+  background: rgba(34, 211, 238, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(34, 211, 238, 0.25);
 }
 
 .nav-desktop__phone {
@@ -483,7 +483,7 @@ main {
   overflow: hidden;
   box-shadow:
     var(--shadow-lg),
-    0 0 0 1px rgba(56, 189, 248, 0.22),
+    0 0 0 1px rgba(34, 211, 238, 0.22),
     0 28px 56px rgba(0, 0, 0, 0.35);
   display: flex;
   flex-direction: column;
@@ -587,7 +587,7 @@ main {
     bottom: 0.15rem;
     width: 3px;
     border-radius: 3px;
-    background: linear-gradient(180deg, var(--color-gold) 0%, var(--color-accent) 55%, rgba(56, 189, 248, 0.35) 100%);
+    background: linear-gradient(180deg, var(--color-gold) 0%, var(--color-accent) 55%, rgba(34, 211, 238, 0.35) 100%);
   }
 }
 
@@ -653,6 +653,128 @@ main {
     width: auto;
     justify-content: center;
   }
+}
+
+/* Regional CTA strip (between hero and value props) */
+.hero-city-strip {
+  padding: 1.35rem 0 1.65rem;
+  background: var(--bg-page);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.hero-city-strip__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+}
+
+.hero-city-strip__label {
+  margin: 0;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.hero-city-strip__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem;
+}
+
+.hero-city-strip__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.35rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-radius: var(--radius-btn);
+  text-decoration: none;
+  transition: background var(--transition), border-color var(--transition), color var(--transition), box-shadow var(--transition);
+}
+
+.hero-city-strip__btn--gold {
+  color: #0f172a;
+  background: var(--color-gold);
+  border: 1px solid rgba(245, 158, 11, 0.45);
+  box-shadow: 0 4px 20px rgba(245, 158, 11, 0.2);
+}
+
+.hero-city-strip__btn--gold:hover {
+  filter: brightness(1.06);
+  color: #0f172a;
+}
+
+.hero-city-strip__btn--accent {
+  color: #0f172a;
+  background: var(--color-accent);
+  border: 1px solid rgba(14, 165, 233, 0.4);
+  box-shadow: var(--shadow-accent);
+}
+
+.hero-city-strip__btn--accent:hover {
+  background: var(--color-accent-hover);
+  color: #0f172a;
+}
+
+@media (min-width: 1024px) {
+  .hero-city-strip {
+    padding: 1.5rem 0 1.85rem;
+  }
+}
+
+/* City location pages: map embed */
+.city-map {
+  max-width: 100%;
+}
+
+.city-map__frame {
+  position: relative;
+  margin: 1.25rem 0 0;
+  border-radius: var(--radius-card, 1rem);
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-card, 0 12px 40px rgba(15, 23, 42, 0.35));
+  aspect-ratio: 16 / 10;
+  background: var(--bg-elevated);
+}
+
+.city-map__frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  border: 0;
+}
+
+.city-intro__text {
+  margin: 1.25rem 0 0;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--text-muted);
+  max-width: 42rem;
+}
+
+.city-intro__text strong {
+  color: var(--text-on-dark);
+  font-weight: 600;
+}
+
+.city-intro__text a {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.city-intro__text a:hover {
+  color: var(--color-accent-hover);
 }
 
 .btn {
@@ -746,14 +868,14 @@ a.btn.btn--gold:hover {
   overflow: hidden;
   box-shadow:
     var(--shadow-lg),
-    0 0 0 1px rgba(56, 189, 248, 0.12),
+    0 0 0 1px rgba(34, 211, 238, 0.12),
     0 24px 48px rgba(0, 0, 0, 0.25);
   border: 1px solid var(--border-subtle);
 }
 
 .quote-card__head {
   padding: 1.25rem 1.75rem;
-  background: linear-gradient(135deg, rgba(56, 189, 248, 0.14) 0%, rgba(15, 23, 42, 0.65) 100%);
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.14) 0%, rgba(15, 23, 42, 0.65) 100%);
   border-bottom: 1px solid var(--border-subtle);
 }
 
@@ -1248,8 +1370,8 @@ button.btn-gradient:disabled {
   color: #0f172a;
   background: var(--color-accent);
   border-radius: var(--radius-btn);
-  border: 1px solid rgba(14, 165, 233, 0.3);
-  transition: background var(--transition);
+  border: 1px solid var(--color-accent-border);
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
 }
 
 .service-button:hover {
@@ -1742,7 +1864,7 @@ button.btn-gradient:disabled {
 }
 
 .footer-mobile-bar a:nth-child(3) {
-  background: #0ea5e9;
+  background: var(--color-accent);
   color: #0f172a;
 }
 
@@ -1879,7 +2001,7 @@ button.btn-gradient:disabled {
 
 .contact-shell {
   padding: 3rem 0 4rem;
-  background: var(--bg-muted);
+  background: var(--bg-page);
 }
 
 .contact-grid {
@@ -1894,18 +2016,19 @@ button.btn-gradient:disabled {
 }
 
 .contact-card {
-  background: #fff;
+  background: var(--bg-card);
   border-radius: var(--radius-lg);
   padding: 2rem;
   box-shadow: var(--shadow-md);
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--border-subtle);
+  color: var(--text-on-dark);
 }
 
 .contact-card h2 {
   margin: 0 0 1rem;
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--text-on-dark);
 }
 
 .contact-list {
@@ -1920,6 +2043,7 @@ button.btn-gradient:disabled {
   gap: 0.75rem;
   margin-bottom: 1rem;
   font-size: 1rem;
+  color: var(--text-muted);
 }
 
 .contact-list a {
@@ -1935,6 +2059,10 @@ button.btn-gradient:disabled {
   width: 1.25rem;
   height: 1.25rem;
   color: var(--color-accent);
+}
+
+.contact-card p {
+  color: var(--text-muted);
 }
 
 /* Autocomplete (suburb fields) */

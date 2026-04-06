@@ -4,52 +4,54 @@ header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 header('Cache-Control: post-check=0, pre-check=0', false);
 header('Pragma: no-cache');
 ?>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <!-- Google Tag Manager -->
-        <script>
-            (function(w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js'
-                });
-                var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s),
-                    dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-N8RQF6XN');
-        </script>
-        <!-- End Google Tag Manager -->
+<!DOCTYPE html>
+<html lang="en">
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N8RQF6XN');
+    </script>
+    <!-- End Google Tag Manager -->
 
-        <!-- Indexing Control: Prevent indexing but allow following of internal links -->
-        <meta name="robots" content="noindex, follow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Thank You! | Ozzy Removals</title>
-        <meta name="description" content="Your moving quote request has been received. We'll be in touch shortly.">
-        <meta property="og:title" content="Thank You! | Ozzy Removals">
-        <meta property="og:description" content="Your moving quote request has been received. We'll be in touch shortly.">
-        <meta property="og:image" content="https://images.unsplash.com/photo-1606744837616-59c9e5696800?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
-        <meta property="og:image:width" content="1200">
-        <meta property="og:image:height" content="630">
-        <meta property="og:url" content="https://ozzyremovals.au/thankyou.php">
-        <link rel="canonical" href="https://ozzyremovals.au/thankyou.php">
+    <!-- Indexing Control: Prevent indexing but allow following of internal links -->
+    <meta name="robots" content="noindex, follow">
 
-        <link rel="icon" type="image/webp" href="/IMAGE/favicon1.webp?v=1.1">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1.1">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
+    <title>Thank You! | Ozzy Removals</title>
+    <meta name="description" content="Your moving quote request has been received. We'll be in touch shortly.">
+    <meta property="og:title" content="Thank You! | Ozzy Removals">
+    <meta property="og:description" content="Your moving quote request has been received. We'll be in touch shortly.">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1606744837616-59c9e5696800?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://ozzyremovals.au/thankyou.php">
+    <link rel="canonical" href="https://ozzyremovals.au/thankyou.php">
 
-        <style>
+    <link rel="icon" type="image/webp" href="/IMAGE/favicon1.webp?v=1.1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1.1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
         /* Premium + homepage-matching thank you (dark slate backdrop, elevated light card) */
         body {
             background: var(--bg-page);
@@ -93,7 +95,7 @@ header('Pragma: no-cache');
             pointer-events: none;
             background:
                 radial-gradient(ellipse 110% 70% at 70% 35%, transparent 40%, rgba(2, 6, 23, 0.55) 100%),
-                url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+                url("data:image/svg+xml,%3Csvg viewBox='0 0 076 076' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
             opacity: 0.06;
             mix-blend-mode: overlay;
         }
@@ -130,14 +132,32 @@ header('Pragma: no-cache');
         }
 
         @keyframes tyPop {
-            0% { transform: scale(0.65); opacity: 0; }
-            55% { transform: scale(1.08); opacity: 1; }
-            100% { transform: scale(1); opacity: 1; }
+            0% {
+                transform: scale(0.65);
+                opacity: 0;
+            }
+
+            55% {
+                transform: scale(1.08);
+                opacity: 1;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
         }
 
         @keyframes tyFloat {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-6px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-6px);
+            }
         }
 
         .ty-title {
@@ -164,7 +184,10 @@ header('Pragma: no-cache');
         }
 
         @keyframes tyFadeUp {
-            to { opacity: 1; transform: translateY(0); }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .ty-logos {
@@ -338,91 +361,105 @@ header('Pragma: no-cache');
             text-align: center;
             font-size: 0.9rem;
         }
-        </style>
-    </head>
-    <body>
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8RQF6XN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
+    </style>
+</head>
 
-        <a href="#main-content" class="skip-link">Skip to main content</a>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8RQF6XN" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-        <div class="page-wrap ty-shell">
-            <header id="main-header" class="site-header">
-                <nav class="container site-header__inner" role="navigation" aria-label="Main Navigation">
-                    <a href="index.html" class="site-header__logo">
-                        <img src="https://ozzyremovals.au/iMAGES/logo-main.png" alt="Ozzy Removals Logo" class="logo-invert" width="160" height="48">
-                    </a>
-                    <div class="nav-desktop">
-                        <a href="index.html">Home</a>
-                        <a href="index.html#services">Services</a>
-                        <a href="index.html#pricing">Pricing</a>
-                        <a href="contact.html">Contact</a>
-                        <a href="tel:0410000256" class="nav-desktop__phone">0410 000 256</a>
-                    </div>
-                </nav>
-            </header>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
-            <main id="main-content" class="ty-main">
-                <div class="ty-panel">
-                    <div class="ty-check" aria-hidden="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
-                            <path d="M20 7L10 17l-5-5" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-
-                    <h1 class="ty-title">Your quote request has been received.</h1>
-                    <p class="ty-subtitle">We’re already reviewing your move details. One of our Perth-based coordinators will reach out shortly. If your move is urgent or same-day, you can call us now and we’ll prioritise your booking.</p>
-
-                    <div class="ty-logos" aria-label="Trust signals">
-                        <span class="ty-logo">
-                            <span style="font-weight:900;">Google</span>
-                            <small>Reviews</small>
-                        </span>
-                        <span class="ty-logo">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="#f59e0b" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                            <span>Top rated</span>
-                        </span>
-                        <span class="ty-logo">
-                            <span style="font-weight:900;">BBB</span>
-                            <small>Accredited</small>
-                        </span>
-                    </div>
-
-                    <div class="ty-content">
-                        <section class="ty-card" aria-label="What happens next">
-                            <h2>Here’s what happens from here</h2>
-                            <ul class="ty-list">
-                                <li>
-                                    <span class="ty-dot">1</span>
-                                    <span><strong>Confirmation:</strong> We’ll confirm your date, time window and truck size based on the details you provided.</span>
-                                </li>
-                                <li>
-                                    <span class="ty-dot">2</span>
-                                    <span><strong>Call-back (when requested):</strong> A coordinator may call you to clarify access, stairs or special items.</span>
-                                </li>
-                                <li>
-                                    <span class="ty-dot">3</span>
-                                    <span><strong>Locked-in booking:</strong> Once confirmed, we reserve your crew and truck and send final details via SMS or email.</span>
-                                </li>
-                            </ul>
-                            <div class="ty-actions">
-                                <a href="tel:0410000256" class="ty-btn-primary">Call us now</a>
-                                <a href="index.html" class="ty-btn-ghost">Back to homepage</a>
-                            </div>
-                        </section>
-                    </div>
-
-                    <footer class="ty-footer">
-                        <p>© <span id="year"></span> Ozzy Removals Perth. All rights reserved.</p>
-                        <p>Perth’s leading moving company – affordable, reliable &amp; hassle‑free removals.</p>
-                    </footer>
+    <div class="page-wrap ty-shell">
+        <header id="main-header" class="site-header">
+            <nav class="container site-header__inner" role="navigation" aria-label="Main Navigation">
+                <a href="index.html" class="site-header__logo">
+                    <img src="https://ozzyremovals.au/iMAGES/logo-main.png" alt="Ozzy Removals Logo" class="logo-invert"
+                        width="160" height="48">
+                </a>
+                <div class="nav-desktop">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#services">Services</a>
+                    <a href="index.html#pricing">Pricing</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="tel:0410000076" class="nav-desktop__phone">0410 000 076</a>
                 </div>
-            </main>
-        </div>
+            </nav>
+        </header>
 
-        <script>
-            document.getElementById('year').textContent = new Date().getFullYear();
-        </script>
-    </body>
-    </html>
+        <main id="main-content" class="ty-main">
+            <div class="ty-panel">
+                <div class="ty-check" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                        <path d="M20 7L10 17l-5-5" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+                <h1 class="ty-title">Your quote request has been received.</h1>
+                <p class="ty-subtitle">We’re already reviewing your move details. One of our Perth-based coordinators
+                    will reach out shortly. If your move is urgent or same-day, you can call us now and we’ll prioritise
+                    your booking.</p>
+
+                <div class="ty-logos" aria-label="Trust signals">
+                    <span class="ty-logo">
+                        <span style="font-weight:900;">Google</span>
+                        <small>Reviews</small>
+                    </span>
+                    <span class="ty-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20"
+                            fill="#f59e0b" aria-hidden="true">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <span>Top rated</span>
+                    </span>
+                    <span class="ty-logo">
+                        <span style="font-weight:900;">BBB</span>
+                        <small>Accredited</small>
+                    </span>
+                </div>
+
+                <div class="ty-content">
+                    <section class="ty-card" aria-label="What happens next">
+                        <h2>Here’s what happens from here</h2>
+                        <ul class="ty-list">
+                            <li>
+                                <span class="ty-dot">1</span>
+                                <span><strong>Confirmation:</strong> We’ll confirm your date, time window and truck size
+                                    based on the details you provided.</span>
+                            </li>
+                            <li>
+                                <span class="ty-dot">2</span>
+                                <span><strong>Call-back (when requested):</strong> A coordinator may call you to clarify
+                                    access, stairs or special items.</span>
+                            </li>
+                            <li>
+                                <span class="ty-dot">3</span>
+                                <span><strong>Locked-in booking:</strong> Once confirmed, we reserve your crew and truck
+                                    and send final details via SMS or email.</span>
+                            </li>
+                        </ul>
+                        <div class="ty-actions">
+                            <a href="tel:0410000076" class="ty-btn-primary">Call us now</a>
+                            <a href="index.html" class="ty-btn-ghost">Back to homepage</a>
+                        </div>
+                    </section>
+                </div>
+
+                <footer class="ty-footer">
+                    <p>© <span id="year"></span> Ozzy Removals Perth. All rights reserved.</p>
+                    <p>Perth’s leading moving company – affordable, reliable &amp; hassle‑free removals.</p>
+                </footer>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
